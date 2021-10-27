@@ -1,11 +1,8 @@
 import React from "react";
+import ChildComp from "./ChildComp";
 
 const ShowCount = (props) => {
-  return (
-    <div>
-      <h1>{props.count}</h1>
-    </div>
-  );
+  return <ChildComp count={props.count} />;
 };
 
 export default ShowCount;

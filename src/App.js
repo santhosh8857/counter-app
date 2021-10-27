@@ -25,7 +25,7 @@ const App = () => {
   };
 
   return (
-    <div className="app">
+    <div className="App">
       <h1>{count}</h1>
       {/* Importing components */}
 
